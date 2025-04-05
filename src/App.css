@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.loader, .notification {
+  margin: 20px;
+  font-size: 1.2rem;
+  color: darkgray;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  display: flex;
+  margin: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.quit-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.message-sent {
+  text-align: right;
+  color: blue;
+}
+
+.message-received {
+  text-align: left;
+  color: green;
+}
